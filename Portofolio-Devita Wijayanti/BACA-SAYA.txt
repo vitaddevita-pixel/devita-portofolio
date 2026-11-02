@@ -1,0 +1,4 @@
+CARA MEMBUKA: klik dua kali file index.html (akan terbuka di browser).
+Edit email, no. telepon, dan konten di bagian atas script.js.
+Ganti CV: timpa file cv/CV-Devita-Wijayanti.pdf
+Font Google butuh internet; tanpa internet tampilan tetap jalan dengan font cadangan.

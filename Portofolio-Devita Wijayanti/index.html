@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Devita Wijayanti — Portfolio</title>
+<meta name="description" content="Portfolio Devita Wijayanti, lulusan D3 Teknik Informatika UKSW.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="preloader"><p>DW</p><div class="bar"><i></i></div></div>
+
+<header id="nav">
+  <nav class="wrap">
+    <a href="#top" class="logo">Devita<span>.</span></a>
+    <ul id="menu"></ul>
+    <button id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<main>
+<section id="top" class="hero">
+  <i class="float f1"></i><i class="float f2"></i><i class="float f3"></i>
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow fade" style="--d:2.1s">Portfolio — D3 Teknik Informatika</p>
+      <h1><span class="mask"><b style="--d:2.2s">Devita</b></span><span class="mask"><b class="it" style="--d:2.35s">Wijayanti</b></span></h1>
+      <p class="role fade" style="--d:2.5s">Saya seorang <span id="typing"></span><span class="caret"></span></p>
+      <p class="lead fade" style="--d:2.7s">Merancang teknologi yang rapi, teliti, dan berguna. Lulusan D3 Teknik Informatika Universitas Kristen Satya Wacana dengan pengalaman QA testing, frontend, dan asisten dosen.</p>
+      <div class="btns fade" style="--d:2.9s">
+        <a class="btn solid" href="#projects">View My Portfolio ↓</a>
+        <a class="btn" href="cv/CV-Devita-Wijayanti.pdf" download>Download CV</a>
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-img fade" style="--d:2.3s">
+      <div class="arch"></div>
+      <img src="images/hero.png" alt="Devita Wijayanti">
+    </div>
+  </div>
+</section>
+
+<section id="about" class="wrap sec">
+  <p class="eyebrow reveal">01 — About me</p>
+  <h2 class="reveal">Teliti dalam detail, terbuka pada teknologi.</h2>
+  <div class="about-grid">
+    <div class="photo reveal"><img src="images/about.png" alt="Devita Wijayanti" loading="lazy"><div class="badge"><b>IPK 3,48</b><br>UKSW 2023–2026</div></div>
+    <div>
+      <p class="big reveal">Lulusan D3 Teknik Informatika Universitas Kristen Satya Wacana dengan IPK 3,48. Berpengalaman magang dalam pengujian aplikasi berbasis web, mendokumentasikan hasil pengujian, serta membantu pengembangan antarmuka aplikasi absensi. Terbiasa mengoperasikan Microsoft Office, mengolah data, menyusun dokumentasi, dan menggunakan sistem berbasis teknologi.</p>
+      <p class="reveal muted">Tertarik mengembangkan karier di bidang administrasi, operasional perkantoran, teknologi informasi, maupun Quality Assurance.</p>
+      <div class="stats">
+        <div class="card reveal" style="--i:0"><b>3,48</b><span>IPK D3</span></div>
+        <div class="card reveal" style="--i:1"><b>3 bln</b><span>Magang QA &amp; Frontend</span></div>
+        <div class="card reveal" style="--i:2"><b>2</b><span>Semester Asisten Dosen</span></div>
+      </div>
+      <div class="chips">
+        <span class="reveal" style="--i:0">Teliti</span><span class="reveal" style="--i:1">Terorganisir</span><span class="reveal" style="--i:2">Bertanggung jawab</span><span class="reveal" style="--i:3">Teamwork</span><span class="reveal" style="--i:4">Adaptability</span><span class="reveal" style="--i:5">Communication</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="band"><section id="education" class="wrap sec">
+  <p class="eyebrow reveal">02 — Education</p>
+  <h2 class="reveal">Fondasi akademik.</h2>
+  <div class="edu-grid">
+    <div class="line">
+      <div class="card edu reveal"><small>2023 – 2026</small><h3>Universitas Kristen Satya Wacana</h3><p>D3 Teknik Informatika</p></div>
+      <div class="card edu reveal" style="--i:1"><small>2020 – 2023</small><h3>Madrasah Aliyah Negeri Salatiga</h3><p>Sekolah Menengah Atas</p></div>
+    </div>
+    <div class="course reveal">
+      <p class="eyebrow">Relevant Coursework</p>
+      <ul><li>Aplikasi Komputer Dasar (Microsoft Office, 1 semester)</li><li>Pemrograman Berorientasi Objek</li><li>Pemrograman Basis Data</li><li>Design Pattern</li><li>Sistem Basis Data</li></ul>
+      <p class="muted">Mata kuliah yang mendukung kemampuan teknis dan administrasi.</p>
+    </div>
+  </div>
+</section></div>
+
+<section id="skills" class="wrap sec">
+  <p class="eyebrow reveal">03 — Skills &amp; Technologies</p>
+  <h2 class="reveal">Tools yang saya gunakan.</h2>
+  <div id="skillGroups"></div>
+</section>
+
+<section id="projects" class="wrap sec">
+  <p class="eyebrow reveal">04 — Project portfolio</p>
+  <h2 class="reveal">Karya &amp; pengalaman terpilih.</h2>
+  <div id="projectGrid" class="proj-grid"></div>
+</section>
+
+<div class="band"><section id="experience" class="wrap sec">
+  <p class="eyebrow reveal">05 — Experience</p>
+  <h2 class="reveal">Perjalanan &amp; kegiatan.</h2>
+  <div class="timeline" id="timeline"><div class="progress" id="progress"></div></div>
+  <p class="eyebrow reveal" style="margin-top:4rem">Dokumentasi kegiatan</p>
+  <div class="gallery" id="gallery"></div>
+</section></div>
+
+<section id="certifications" class="wrap sec">
+  <p class="eyebrow reveal">06 — Certifications</p>
+  <h2 class="reveal">Pelatihan &amp; penghargaan.</h2>
+  <div class="cert-grid" id="certGrid"></div>
+</section>
+
+<div class="dark"><section id="contact" class="wrap sec">
+  <p class="eyebrow reveal" style="color:var(--tan)">07 — Contact</p>
+  <h2 class="reveal">Mari <i>bekerja sama.</i></h2>
+  <p class="reveal" style="opacity:.7;max-width:36rem">Terbuka untuk peluang di bidang administrasi, operasional perkantoran, teknologi informasi, dan Quality Assurance.</p>
+  <div class="contact-grid">
+    <div id="contactLinks"></div>
+    <form id="form" class="reveal">
+      <input required id="fName" placeholder="Nama Anda">
+      <textarea required id="fMsg" rows="5" placeholder="Pesan Anda"></textarea>
+      <button class="btn solid" type="submit">Contact Me ➤</button>
+      <small>Tombol ini membuka aplikasi email Anda dengan pesan yang sudah terisi.</small>
+    </form>
+  </div>
+</section></div>
+</main>
+
+<footer>© <span id="year"></span> Devita Wijayanti.</footer>
+<button id="toTop" aria-label="Kembali ke atas">↑</button>
+<div id="modal" class="modal" hidden><div class="sheet" role="dialog" aria-modal="true"><button class="close" aria-label="Tutup">✕</button><div id="modalBody"></div></div></div>
+<div id="lightbox" class="modal" hidden><div class="lb"><button class="close" aria-label="Tutup">✕</button><img id="lbImg" alt=""></div></div>
+<script src="script.js"></script>
+</body>
+</html>
